@@ -9,5 +9,6 @@ def create_app():
     app.app_context().push()
     # Imports Routes
     from .routes import security_socre_routes
+    from .routes import os_info_routes
 
     return app
