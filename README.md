@@ -1,9 +1,9 @@
 # egida-api-worker
 
 <!-- PROJECT SHIELDS -->
-[![EGIDA VERSION](https://img.shields.io/badge/egida-v0.0.1-blue?style=for-the-badge&logo=ansible&color=ff69b4)](https://github.com/antonioalfa22/egida)
+[![EGIDA VERSION](https://img.shields.io/badge/egida-v2.0.0-blue?style=for-the-badge&logo=ansible&color=ff69b4)](https://github.com/antonioalfa22/egida)
 [![GitHub license](https://img.shields.io/badge/license-Apache-blue?style=for-the-badge)](https://github.com/antonioalfa22/egida-api-worker/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v.0.0.1-yellowgreen?style=for-the-badge)](https://github.com/antonioalfa22/egida-api-worker/releases)
+[![GitHub release](https://img.shields.io/badge/release-v.2.0.0-yellowgreen?style=for-the-badge)](https://github.com/antonioalfa22/egida-api-worker/releases)
 
 <!-- PROJECT LOGO -->
 
@@ -20,12 +20,6 @@
     <br />
     <a href="https://github.com/antonioalfa22/egida-api-worker"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/antonioalfa22/egida-api-worker">View Source</a>
-    ·
-    <a href="https://github.com/antonioalfa22/egida-api-worker/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/antonioalfa22/egida-api-worker/issues">Request Feature</a>
   </p>
 </p>
 
@@ -47,18 +41,10 @@ This role was developed and tested against Ubuntu Linux 16.04 LTS and 18.04 LTS.
 The CIS Benchmarks used for this repository can be found at [CIS Center for Intenet Security](https://www.cisecurity.org/cis-benchmarks/).
 
 <!-- GETTING STARTED -->
-## Getting Started
 
-Getting Started
-
-### Prerequisites
-
-1. Ansible
-
-### Installation
+## Installation
 
 1. Download the source from [here](https://github.com/antonioalfa22/egida-api-worker/releases).
-
 
 <!-- LICENSE -->
 ## License
