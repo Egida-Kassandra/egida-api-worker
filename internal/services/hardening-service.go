@@ -1,6 +1,9 @@
 package services
 
-import grpc "github.com/antonioalfa22/egida-api-worker/proto"
+import (
+	"github.com/antonioalfa22/egida-api-worker/pkg/hardening"
+	grpc "github.com/antonioalfa22/egida-api-worker/proto"
+)
 
 type HardeningService struct {}
 var hardeningService *HardeningService
@@ -13,5 +16,10 @@ func GetHardeningService() *HardeningService {
 }
 
 func (s HardeningService) GetLynisScore() (*grpc.LynisScore, error) {
-	return nil, nil
+	alltext := hardening.GetLynisScores()
+	result := &grpc.LynisScore{
+		Score: "",
+		Log: alltext,
+	}
+	return result, nil
 }
