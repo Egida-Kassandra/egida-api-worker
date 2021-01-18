@@ -16,10 +16,10 @@ func GetHardeningService() *HardeningService {
 }
 
 func (s HardeningService) GetLynisScore() (*grpc.LynisScore, error) {
-	alltext := hardening.GetLynisScores()
+	lines := hardening.GetLynisScores()
 	result := &grpc.LynisScore{
 		Score: "",
-		Log: alltext,
+		Log: lines,
 	}
 	return result, nil
 }
