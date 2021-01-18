@@ -17,11 +17,13 @@ func GetHardeningService() *HardeningService {
 }
 
 func (s HardeningService) GetLynisScore() (*grpc.LynisScore, error) {
+	fmt.Println("Getting scores")
 	lines := hardening.GetLynisScores()
+	fmt.Println("Socres obtained")
+	fmt.Println(lines)
 	result := &grpc.LynisScore{
 		Score: "",
 		Log: lines,
 	}
-	fmt.Println(lines)
 	return result, nil
 }
