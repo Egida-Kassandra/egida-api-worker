@@ -9,7 +9,7 @@ go-path:
 	export CGO_ENABLED=0
 
 build: go-path
-	go build -o build/api cmd/main.go
+	go build -o build/egida-api-worker cmd/main.go
 
 gen-proto:
 	protoc -I $(PROTO_FILES_PATH) --go_out=plugins=grpc:$(PROTO_OUT) $(PROTO_FILES_PATH)/*.proto
