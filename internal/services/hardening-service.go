@@ -1,6 +1,7 @@
 package services
 
 import (
+	"fmt"
 	"github.com/antonioalfa22/egida-api-worker/pkg/hardening"
 	grpc "github.com/antonioalfa22/egida-api-worker/proto"
 )
@@ -21,5 +22,6 @@ func (s HardeningService) GetLynisScore() (*grpc.LynisScore, error) {
 		Score: "",
 		Log: lines,
 	}
+	fmt.Println(lines)
 	return result, nil
 }
