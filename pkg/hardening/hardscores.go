@@ -8,7 +8,7 @@ import (
 )
 
 func GetLynisScores() []string {
-	output, err := command.RunCommandWithOutput("lynis", "audit", "system", "|", "grep", "'Hardening index'")
+	output, err := command.RunCommandWithOutput("lynis", "audit", "system", "| grep", "'Hardening index'")
 	if err != nil {
 		fmt.Println("Error on runing command")
 	}
