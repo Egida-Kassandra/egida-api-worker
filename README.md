@@ -1,24 +1,24 @@
 # egida-api-worker
 
 <!-- PROJECT SHIELDS -->
-[![EGIDA VERSION](https://img.shields.io/badge/egida-v2.0.0-blue?style=for-the-badge&logo=ansible&color=ff69b4)](https://github.com/antonioalfa22/egida)
-[![GitHub license](https://img.shields.io/badge/license-Apache-blue?style=for-the-badge)](https://github.com/antonioalfa22/egida-api-worker/blob/master/LICENSE)
-[![GitHub release](https://img.shields.io/badge/release-v.2.0.0-yellowgreen?style=for-the-badge)](https://github.com/antonioalfa22/egida-api-worker/releases)
+[![EGIDA VERSION](https://img.shields.io/badge/egida-v2.0.0-blue?style=for-the-badge&logo=ansible&color=ff69b4)](https://github.com/egida-kassandra/egida)
+[![GitHub license](https://img.shields.io/badge/license-Apache-blue?style=for-the-badge)](https://github.com/egida-kassandra/egida-api-worker/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/badge/release-v.2.0.0-yellowgreen?style=for-the-badge)](https://github.com/egida-kassandra/egida-api-worker/releases)
 
 <!-- PROJECT LOGO -->
 
 <br />
 <p align="center">
-  <a href="https://github.com/antonioalfa22/egida-api-worker">
+  <a href="https://github.com/egida-kassandra/egida-api-worker">
     <img src="img/logo.svg" alt="Logo" width="180" height="180">
   </a>
 
   <h3 align="center">egida-api-worker</h3>
 
   <p align="center">
-    <a href="https://github.com/antonioalfa22/egida"><strong>EGIDA</strong></a> Setup Role
+    <a href="https://github.com/egida-kassandra/egida"><strong>EGIDA</strong></a> Setup Role
     <br />
-    <a href="https://github.com/antonioalfa22/egida-api-worker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/egida-kassandra/egida-api-worker"><strong>Explore the docs »</strong></a>
     <br />
   </p>
 </p>
@@ -44,7 +44,7 @@ The CIS Benchmarks used for this repository can be found at [CIS Center for Inte
 
 ## Installation
 
-1. Download the source from [here](https://github.com/antonioalfa22/egida-api-worker/releases).
+1. Download the source from [here](https://github.com/egida-kassandra/egida-api-worker/releases).
 
 <!-- LICENSE -->
 ## License
@@ -60,4 +60,4 @@ Authors:
 * [Alba Cotarelo Tuñón](https://antoniopg.tk)
 * [Jose Manuel Redondo Lopez](http://orcid.org/0000-0002-0939-0186)
 
-Project Link: [https://github.com/antonioalfa22/egida](https://github.com/antonioalfa22/egida)
+Project Link: [https://github.com/egida-kassandra/egida](https://github.com/egida-kassandra/egida)
