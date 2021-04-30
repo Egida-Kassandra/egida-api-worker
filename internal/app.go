@@ -24,6 +24,7 @@ func Run() {
 	pb.RegisterServicesServer(s, server.NewServicesServer())
 	pb.RegisterPackagesServer(s, server.NewPackagesServer())
 	pb.RegisterHardeningScoresServer(s, server.NewHardeningServer())
+	pb.RegisterMachineInfoServer(s, server.NewMachineInfoServer())
 	if err := s.Serve(listen); err != nil {
 		log.Fatalf("Failed to serve: %v", err)
 	}
